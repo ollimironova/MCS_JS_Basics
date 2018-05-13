@@ -1,0 +1,88 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+.page {
+  height: 100vh;
+  font-family: 'Roboto Mono', monospace;
+ } 
+
+.header {
+  height: 60px;
+  width: 60px;
+  background-color: lightgrey;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.header:hover {
+  background-color: grey;
+ }
+
+.menu {
+  width: 30vw;
+  height: 100vh;
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  left: -30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a {
+  color: white;
+  line-height: 40px;
+}
+
+.closeMenu {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.content {
+  height: 80vh;
+}
+
+.request {
+  width: 300px;
+  height: 80px;
+  background-color: white;
+  border: 2px solid lightgrey;
+  display: block;
+  margin: 20px auto;
+  font-size: 30px;
+  cursor: pointer;
+  color: navy;
+}
+.request:hover {
+  background-color: grey;
+  color: white;
+}
+
+.popup {
+  position: fixed;
+  width: 500px;
+  height: 300px;
+  background-color: navy;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid grey;
+}
+
+.closePopup {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
