@@ -1,0 +1,33 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.cryptos {
+	margin: 20px;
+}
+
+.block.bitcoin {
+	height: 20px;
+	width: 0;
+	background-color: red;
+}
+
+.block.ethereum {
+	height: 20px;
+	width: 0;
+	background-color: blue;
+}
+
+.block.litecoin {
+	height: 20px;
+	width: 0;
+	background-color: green;
+}
